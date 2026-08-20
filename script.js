@@ -367,7 +367,7 @@ document.addEventListener("DOMContentLoaded", function () {
 • *Tanggal Pengambilan (H-1):* ${payload.tanggalPengambilan || "-"}
 • *Maks. Pengembalian (H+2):* ${payload.tanggalPengembalian || "-"}
 
-*LOKASI PENGIRIMAN:*
+*LOKASI PEMESAN:*
 • *Alamat:* ${payload.alamat}
 ${payload.mapsUrl ? `• *Maps:* ${payload.mapsUrl}\n` : ""}
 *DEKORASI & BOX:*
